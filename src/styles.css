@@ -1,2 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+
+.scrollable {
+  overflow-y: scroll;
+  /* height: 300px;  */
+  width: 15rem;
+}
+
+.row.main-content {
+  /* height: 300px; */
+  margin-top: 20px; /* Needs to match the height of .row.top */
+}
+
+ul {
+  list-style-type: none;
+}

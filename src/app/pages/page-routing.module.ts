@@ -69,6 +69,10 @@ const routes: Routes = [
                 "path": "typeahead",
                 "loadChildren": ".\/components\/typeahead\/typeahead.module#TypeaheadModule"
             },
+            {
+                "path": "image",
+                "loadChildren": ".\/components\/image\/image.module#ImageModule"
+            },
             // {
             //     "path": "404",
             //     "loadChildren": ".\/components\/not-found\/not-found.module#NotFoundModule"
