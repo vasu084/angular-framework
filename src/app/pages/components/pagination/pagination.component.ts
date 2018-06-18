@@ -2,11 +2,11 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 declare var $: any;
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-pagination',
+  templateUrl: './pagination.component.html',
+  styleUrls: []
 })
-export class AppComponent implements OnInit, AfterViewInit{
+export class PaginationComponent implements OnInit, AfterViewInit{
 
   constructor(){
   }

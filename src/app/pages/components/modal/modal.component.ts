@@ -2,11 +2,11 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 declare var $: any;
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-modal',
+  templateUrl: './modal.component.html',
+  styleUrls: []
 })
-export class AppComponent implements OnInit, AfterViewInit{
+export class ModalComponent implements OnInit, AfterViewInit{
 
   constructor(){
   }

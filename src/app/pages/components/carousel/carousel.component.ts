@@ -2,11 +2,11 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 declare var $: any;
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-carousel',
+  templateUrl: './carousel.component.html',
+  styleUrls: []
 })
-export class AppComponent implements OnInit, AfterViewInit{
+export class CarouselComponent implements OnInit, AfterViewInit{
 
   constructor(){
   }
